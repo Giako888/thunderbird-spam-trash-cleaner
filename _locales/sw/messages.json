@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Futa folda za Spam na Tupio za akaunti zako zote kwa kubofya mara moja."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Tupio:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Futa Tupio"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Futa Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Futa Zote"
+  },
+  "confirmTrash": {
+    "message": "Futa ujumbe wote katika Tupio kabisa?"
+  },
+  "confirmSpam": {
+    "message": "Futa ujumbe wote katika Spam kabisa?"
+  },
+  "confirmBoth": {
+    "message": "Futa ujumbe wote katika Tupio na Spam kabisa?"
+  },
+  "confirmYes": {
+    "message": "✅ Ndiyo, futa"
+  },
+  "confirmNo": {
+    "message": "❌ Ghairi"
+  },
+  "loading": {
+    "message": "inapakia..."
+  },
+  "messages": {
+    "message": "ujumbe"
+  },
+  "deleting": {
+    "message": "Inafuta..."
+  },
+  "errorStatus": {
+    "message": "Hitilafu ya kupakia hali: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Hitilafu: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Hakuna jibu kutoka kwa hati ya nyuma"
+  },
+  "errorInvalidResponse": {
+    "message": "Jibu batili kutoka kwa hati ya nyuma"
+  },
+  "successTrash": {
+    "message": "Tupio imefutwa!"
+  },
+  "successSpam": {
+    "message": "Spam imefutwa!"
+  },
+  "successBoth": {
+    "message": "Tupio na Spam zimefutwa!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ (ujumbe $COUNT$ umefutwa)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Imekamilika na hitilafu:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Hitilafu"
+  },
+  "toolbarTrashLabel": {
+    "message": "Futa Tupio"
+  },
+  "toolbarSpamLabel": {
+    "message": "Futa Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Futa Tupio na Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "Ujumbe $COUNT$ umefutwa.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ umefutwa, lakini na hitilafu:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

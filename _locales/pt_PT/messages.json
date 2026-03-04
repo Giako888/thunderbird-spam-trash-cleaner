@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Esvazie rapidamente as pastas de Spam e Lixo de todas as suas contas com um clique."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Lixo:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Esvaziar Lixo"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Esvaziar Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Esvaziar Ambos"
+  },
+  "confirmTrash": {
+    "message": "Eliminar permanentemente todas as mensagens do Lixo?"
+  },
+  "confirmSpam": {
+    "message": "Eliminar permanentemente todas as mensagens do Spam?"
+  },
+  "confirmBoth": {
+    "message": "Eliminar permanentemente todas as mensagens do Lixo e do Spam?"
+  },
+  "confirmYes": {
+    "message": "✅ Sim, eliminar"
+  },
+  "confirmNo": {
+    "message": "❌ Cancelar"
+  },
+  "loading": {
+    "message": "a carregar..."
+  },
+  "messages": {
+    "message": "mensagens"
+  },
+  "deleting": {
+    "message": "A eliminar..."
+  },
+  "errorStatus": {
+    "message": "Erro ao carregar o estado: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Erro: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Sem resposta do script de fundo"
+  },
+  "errorInvalidResponse": {
+    "message": "Resposta inválida do script de fundo"
+  },
+  "successTrash": {
+    "message": "Lixo esvaziado!"
+  },
+  "successSpam": {
+    "message": "Spam esvaziado!"
+  },
+  "successBoth": {
+    "message": "Lixo e Spam esvaziados!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ mensagens eliminadas)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Concluído com erros:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Erro"
+  },
+  "toolbarTrashLabel": {
+    "message": "Esvaziar Lixo"
+  },
+  "toolbarSpamLabel": {
+    "message": "Esvaziar Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Esvaziar Lixo e Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ mensagens eliminadas.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ eliminadas, mas com erros:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

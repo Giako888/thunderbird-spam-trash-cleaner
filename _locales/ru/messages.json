@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Быстро очистите папки Спам и Корзина всех ваших аккаунтов одним кликом."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Корзина:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Спам:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Очистить Корзину"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Очистить Спам"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Очистить оба"
+  },
+  "confirmTrash": {
+    "message": "Безвозвратно удалить все сообщения из Корзины?"
+  },
+  "confirmSpam": {
+    "message": "Безвозвратно удалить все сообщения из Спама?"
+  },
+  "confirmBoth": {
+    "message": "Безвозвратно удалить все сообщения из Корзины и Спама?"
+  },
+  "confirmYes": {
+    "message": "✅ Да, удалить"
+  },
+  "confirmNo": {
+    "message": "❌ Отмена"
+  },
+  "loading": {
+    "message": "загрузка..."
+  },
+  "messages": {
+    "message": "сообщений"
+  },
+  "deleting": {
+    "message": "Удаление..."
+  },
+  "errorStatus": {
+    "message": "Ошибка загрузки статуса: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Ошибка: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Нет ответа от фонового скрипта"
+  },
+  "errorInvalidResponse": {
+    "message": "Недействительный ответ от фонового скрипта"
+  },
+  "successTrash": {
+    "message": "Корзина очищена!"
+  },
+  "successSpam": {
+    "message": "Спам очищен!"
+  },
+  "successBoth": {
+    "message": "Корзина и Спам очищены!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ сообщений удалено)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Завершено с ошибками:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Ошибка"
+  },
+  "toolbarTrashLabel": {
+    "message": "Очистить Корзину"
+  },
+  "toolbarSpamLabel": {
+    "message": "Очистить Спам"
+  },
+  "toolbarBothLabel": {
+    "message": "Очистить Корзину и Спам"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ сообщений удалено.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ удалено, но с ошибками:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "4.0.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "author": "Giako",
+  "homepage_url": "https://github.com/giako/thunderbird-spam-trash-cleaner",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "spam-trash-cleaner@giako",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "accountsFolders",
+    "messagesRead",
+    "messagesDelete",
+    "messagesMove",
+    "notifications",
+    "menus"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.svg",
+      "32": "icons/icon-32.svg",
+      "48": "icons/icon-48.svg"
+    }
+  },
+  "commands": {
+    "empty-trash": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Delete"
+      },
+      "description": "__MSG_toolbarTrashLabel__"
+    },
+    "empty-spam": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+J"
+      },
+      "description": "__MSG_toolbarSpamLabel__"
+    },
+    "empty-both": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+B"
+      },
+      "description": "__MSG_toolbarBothLabel__"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.svg",
+    "32": "icons/icon-32.svg",
+    "48": "icons/icon-48.svg",
+    "128": "icons/icon-128.svg"
+  }
+}

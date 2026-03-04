@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Quickly empty the Spam and Trash folders of all your accounts with one click."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Trash:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Empty Trash"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Empty Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Empty Both"
+  },
+  "confirmTrash": {
+    "message": "Delete all messages from Trash permanently?"
+  },
+  "confirmSpam": {
+    "message": "Delete all messages from Spam permanently?"
+  },
+  "confirmBoth": {
+    "message": "Delete all messages from Trash and Spam permanently?"
+  },
+  "confirmYes": {
+    "message": "✅ Yes, delete"
+  },
+  "confirmNo": {
+    "message": "❌ Cancel"
+  },
+  "loading": {
+    "message": "loading..."
+  },
+  "messages": {
+    "message": "messages"
+  },
+  "deleting": {
+    "message": "Deleting..."
+  },
+  "errorStatus": {
+    "message": "Error loading status: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Error: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "No response from background script"
+  },
+  "errorInvalidResponse": {
+    "message": "Invalid response from background script"
+  },
+  "successTrash": {
+    "message": "Trash emptied!"
+  },
+  "successSpam": {
+    "message": "Spam emptied!"
+  },
+  "successBoth": {
+    "message": "Trash and Spam emptied!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ messages deleted)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Completed with errors:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Error"
+  },
+  "toolbarTrashLabel": {
+    "message": "Empty Trash"
+  },
+  "toolbarSpamLabel": {
+    "message": "Empty Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Empty Trash & Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ messages deleted.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ deleted, but with errors:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

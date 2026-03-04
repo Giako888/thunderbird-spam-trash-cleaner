@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Nhanh chóng dọn sạch thư mục Spam và Thùng rác của tất cả tài khoản chỉ với một cú nhấp."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Thùng rác:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Dọn Thùng rác"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Dọn Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Dọn cả hai"
+  },
+  "confirmTrash": {
+    "message": "Xóa vĩnh viễn tất cả thư trong Thùng rác?"
+  },
+  "confirmSpam": {
+    "message": "Xóa vĩnh viễn tất cả thư trong Spam?"
+  },
+  "confirmBoth": {
+    "message": "Xóa vĩnh viễn tất cả thư trong Thùng rác và Spam?"
+  },
+  "confirmYes": {
+    "message": "✅ Có, xóa"
+  },
+  "confirmNo": {
+    "message": "❌ Hủy"
+  },
+  "loading": {
+    "message": "đang tải..."
+  },
+  "messages": {
+    "message": "thư"
+  },
+  "deleting": {
+    "message": "Đang xóa..."
+  },
+  "errorStatus": {
+    "message": "Lỗi tải trạng thái: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Lỗi: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Không có phản hồi từ script nền"
+  },
+  "errorInvalidResponse": {
+    "message": "Phản hồi không hợp lệ từ script nền"
+  },
+  "successTrash": {
+    "message": "Thùng rác đã được dọn!"
+  },
+  "successSpam": {
+    "message": "Spam đã được dọn!"
+  },
+  "successBoth": {
+    "message": "Thùng rác và Spam đã được dọn!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ thư đã xóa)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Hoàn thành với lỗi:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Lỗi"
+  },
+  "toolbarTrashLabel": {
+    "message": "Dọn Thùng rác"
+  },
+  "toolbarSpamLabel": {
+    "message": "Dọn Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Dọn Thùng rác và Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "Đã xóa $COUNT$ thư.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "Đã xóa $COUNT$, nhưng có lỗi:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

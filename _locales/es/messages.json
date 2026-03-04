@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Vacía rápidamente las carpetas de Spam y Papelera de todas tus cuentas con un clic."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Papelera:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Vaciar Papelera"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Vaciar Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Vaciar Ambos"
+  },
+  "confirmTrash": {
+    "message": "¿Eliminar permanentemente todos los mensajes de la Papelera?"
+  },
+  "confirmSpam": {
+    "message": "¿Eliminar permanentemente todos los mensajes de Spam?"
+  },
+  "confirmBoth": {
+    "message": "¿Eliminar permanentemente todos los mensajes de Papelera y Spam?"
+  },
+  "confirmYes": {
+    "message": "✅ Sí, eliminar"
+  },
+  "confirmNo": {
+    "message": "❌ Cancelar"
+  },
+  "loading": {
+    "message": "cargando..."
+  },
+  "messages": {
+    "message": "mensajes"
+  },
+  "deleting": {
+    "message": "Eliminando..."
+  },
+  "errorStatus": {
+    "message": "Error al cargar el estado: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Error: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Sin respuesta del script de fondo"
+  },
+  "errorInvalidResponse": {
+    "message": "Respuesta no válida del script de fondo"
+  },
+  "successTrash": {
+    "message": "¡Papelera vaciada!"
+  },
+  "successSpam": {
+    "message": "¡Spam vaciado!"
+  },
+  "successBoth": {
+    "message": "¡Papelera y Spam vaciados!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ mensajes eliminados)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Completado con errores:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Error"
+  },
+  "toolbarTrashLabel": {
+    "message": "Vaciar Papelera"
+  },
+  "toolbarSpamLabel": {
+    "message": "Vaciar Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Vaciar Papelera y Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ mensajes eliminados.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ eliminados, pero con errores:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

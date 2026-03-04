@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam &amp; Trash Cleaner</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="popupTitle"></h1>
+
+    <div class="status-panel" id="statusPanel">
+      <div class="status-row">
+        <span class="label" id="labelTrash"></span>
+        <span class="count" id="trashCount">...</span>
+      </div>
+      <div class="status-row">
+        <span class="label" id="labelSpam"></span>
+        <span class="count" id="junkCount">...</span>
+      </div>
+    </div>
+
+    <!-- Main action buttons -->
+    <div class="button-group" id="mainButtons">
+      <button id="btnEmptyTrash" class="btn btn-trash" disabled></button>
+      <button id="btnEmptyJunk" class="btn btn-junk" disabled></button>
+      <button id="btnEmptyBoth" class="btn btn-both" disabled></button>
+    </div>
+
+    <!-- Inline confirmation panel -->
+    <div id="confirmPanel" class="confirm-panel hidden">
+      <p id="confirmText" class="confirm-text"></p>
+      <div class="confirm-buttons">
+        <button id="btnConfirmYes" class="btn btn-confirm-yes"></button>
+        <button id="btnConfirmNo" class="btn btn-confirm-no"></button>
+      </div>
+    </div>
+
+    <div id="feedback" class="feedback hidden"></div>
+
+    <div id="spinner" class="spinner hidden">
+      <div class="spinner-ring"></div>
+      <span id="spinnerText"></span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

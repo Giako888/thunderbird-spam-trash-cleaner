@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Esvazie rapidamente as pastas de Spam e Lixeira de todas as suas contas com um clique."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Lixeira:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Esvaziar Lixeira"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Esvaziar Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Esvaziar Ambos"
+  },
+  "confirmTrash": {
+    "message": "Excluir permanentemente todas as mensagens da Lixeira?"
+  },
+  "confirmSpam": {
+    "message": "Excluir permanentemente todas as mensagens do Spam?"
+  },
+  "confirmBoth": {
+    "message": "Excluir permanentemente todas as mensagens da Lixeira e do Spam?"
+  },
+  "confirmYes": {
+    "message": "✅ Sim, excluir"
+  },
+  "confirmNo": {
+    "message": "❌ Cancelar"
+  },
+  "loading": {
+    "message": "carregando..."
+  },
+  "messages": {
+    "message": "mensagens"
+  },
+  "deleting": {
+    "message": "Excluindo..."
+  },
+  "errorStatus": {
+    "message": "Erro ao carregar o status: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Erro: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Sem resposta do script de fundo"
+  },
+  "errorInvalidResponse": {
+    "message": "Resposta inválida do script de fundo"
+  },
+  "successTrash": {
+    "message": "Lixeira esvaziada!"
+  },
+  "successSpam": {
+    "message": "Spam esvaziado!"
+  },
+  "successBoth": {
+    "message": "Lixeira e Spam esvaziados!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ mensagens excluídas)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Concluído com erros:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Erro"
+  },
+  "toolbarTrashLabel": {
+    "message": "Esvaziar Lixeira"
+  },
+  "toolbarSpamLabel": {
+    "message": "Esvaziar Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Esvaziar Lixeira e Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ mensagens excluídas.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ excluídas, mas com erros:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

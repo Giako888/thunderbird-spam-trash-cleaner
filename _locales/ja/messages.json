@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "すべてのアカウントの迷惑メールとゴミ箱をワンクリックで空にします。"
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ ゴミ箱："
+  },
+  "labelSpam": {
+    "message": "⚠️ 迷惑メール："
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ ゴミ箱を空にする"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ 迷惑メールを空にする"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 両方を空にする"
+  },
+  "confirmTrash": {
+    "message": "ゴミ箱のすべてのメッセージを完全に削除しますか？"
+  },
+  "confirmSpam": {
+    "message": "迷惑メールのすべてのメッセージを完全に削除しますか？"
+  },
+  "confirmBoth": {
+    "message": "ゴミ箱と迷惑メールのすべてのメッセージを完全に削除しますか？"
+  },
+  "confirmYes": {
+    "message": "✅ はい、削除"
+  },
+  "confirmNo": {
+    "message": "❌ キャンセル"
+  },
+  "loading": {
+    "message": "読み込み中..."
+  },
+  "messages": {
+    "message": "通"
+  },
+  "deleting": {
+    "message": "削除中..."
+  },
+  "errorStatus": {
+    "message": "ステータスの読み込みエラー: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "エラー: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "バックグラウンドスクリプトからの応答なし"
+  },
+  "errorInvalidResponse": {
+    "message": "バックグラウンドスクリプトからの無効な応答"
+  },
+  "successTrash": {
+    "message": "ゴミ箱を空にしました！"
+  },
+  "successSpam": {
+    "message": "迷惑メールを空にしました！"
+  },
+  "successBoth": {
+    "message": "ゴミ箱と迷惑メールを空にしました！"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$（$COUNT$ 通削除）",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ エラー付きで完了:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "エラー"
+  },
+  "toolbarTrashLabel": {
+    "message": "ゴミ箱を空にする"
+  },
+  "toolbarSpamLabel": {
+    "message": "迷惑メールを空にする"
+  },
+  "toolbarBothLabel": {
+    "message": "ゴミ箱と迷惑メールを空にする"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ 通のメッセージを削除しました。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ 通削除しましたが、エラーがあります:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

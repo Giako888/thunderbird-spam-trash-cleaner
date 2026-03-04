@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Kosongkan folder Spam dan Tempat Sampah semua akun Anda dengan satu klik."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Tempat Sampah:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Kosongkan Tempat Sampah"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Kosongkan Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Kosongkan Keduanya"
+  },
+  "confirmTrash": {
+    "message": "Hapus permanen semua pesan di Tempat Sampah?"
+  },
+  "confirmSpam": {
+    "message": "Hapus permanen semua pesan di Spam?"
+  },
+  "confirmBoth": {
+    "message": "Hapus permanen semua pesan di Tempat Sampah dan Spam?"
+  },
+  "confirmYes": {
+    "message": "✅ Ya, hapus"
+  },
+  "confirmNo": {
+    "message": "❌ Batal"
+  },
+  "loading": {
+    "message": "memuat..."
+  },
+  "messages": {
+    "message": "pesan"
+  },
+  "deleting": {
+    "message": "Menghapus..."
+  },
+  "errorStatus": {
+    "message": "Kesalahan memuat status: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Kesalahan: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Tidak ada respons dari skrip latar belakang"
+  },
+  "errorInvalidResponse": {
+    "message": "Respons tidak valid dari skrip latar belakang"
+  },
+  "successTrash": {
+    "message": "Tempat Sampah dikosongkan!"
+  },
+  "successSpam": {
+    "message": "Spam dikosongkan!"
+  },
+  "successBoth": {
+    "message": "Tempat Sampah dan Spam dikosongkan!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ pesan dihapus)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Selesai dengan kesalahan:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Kesalahan"
+  },
+  "toolbarTrashLabel": {
+    "message": "Kosongkan Tempat Sampah"
+  },
+  "toolbarSpamLabel": {
+    "message": "Kosongkan Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Kosongkan Tempat Sampah dan Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ pesan dihapus.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ dihapus, tetapi dengan kesalahan:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

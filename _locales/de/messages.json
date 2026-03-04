@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Leeren Sie die Spam- und Papierkorb-Ordner aller Konten mit einem Klick."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Papierkorb:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Papierkorb leeren"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Spam leeren"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Beide leeren"
+  },
+  "confirmTrash": {
+    "message": "Alle Nachrichten im Papierkorb dauerhaft löschen?"
+  },
+  "confirmSpam": {
+    "message": "Alle Nachrichten im Spam dauerhaft löschen?"
+  },
+  "confirmBoth": {
+    "message": "Alle Nachrichten in Papierkorb und Spam dauerhaft löschen?"
+  },
+  "confirmYes": {
+    "message": "✅ Ja, löschen"
+  },
+  "confirmNo": {
+    "message": "❌ Abbrechen"
+  },
+  "loading": {
+    "message": "Laden..."
+  },
+  "messages": {
+    "message": "Nachrichten"
+  },
+  "deleting": {
+    "message": "Wird gelöscht..."
+  },
+  "errorStatus": {
+    "message": "Fehler beim Laden des Status: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Fehler: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Keine Antwort vom Hintergrundskript"
+  },
+  "errorInvalidResponse": {
+    "message": "Ungültige Antwort vom Hintergrundskript"
+  },
+  "successTrash": {
+    "message": "Papierkorb geleert!"
+  },
+  "successSpam": {
+    "message": "Spam geleert!"
+  },
+  "successBoth": {
+    "message": "Papierkorb und Spam geleert!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ Nachrichten gelöscht)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Abgeschlossen mit Fehlern:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Fehler"
+  },
+  "toolbarTrashLabel": {
+    "message": "Papierkorb leeren"
+  },
+  "toolbarSpamLabel": {
+    "message": "Spam leeren"
+  },
+  "toolbarBothLabel": {
+    "message": "Papierkorb und Spam leeren"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ Nachrichten gelöscht.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ gelöscht, aber mit Fehlern:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

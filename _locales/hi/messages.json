@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "सभी खातों के स्पैम और ट्रैश फ़ोल्डर एक क्लिक में खाली करें।"
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ ट्रैश:"
+  },
+  "labelSpam": {
+    "message": "⚠️ स्पैम:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ ट्रैश खाली करें"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ स्पैम खाली करें"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 दोनों खाली करें"
+  },
+  "confirmTrash": {
+    "message": "ट्रैश के सभी संदेश स्थायी रूप से हटाएँ?"
+  },
+  "confirmSpam": {
+    "message": "स्पैम के सभी संदेश स्थायी रूप से हटाएँ?"
+  },
+  "confirmBoth": {
+    "message": "ट्रैश और स्पैम के सभी संदेश स्थायी रूप से हटाएँ?"
+  },
+  "confirmYes": {
+    "message": "✅ हाँ, हटाएँ"
+  },
+  "confirmNo": {
+    "message": "❌ रद्द करें"
+  },
+  "loading": {
+    "message": "लोड हो रहा है..."
+  },
+  "messages": {
+    "message": "संदेश"
+  },
+  "deleting": {
+    "message": "हटाया जा रहा है..."
+  },
+  "errorStatus": {
+    "message": "स्थिति लोड करने में त्रुटि: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "त्रुटि: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "बैकग्राउंड स्क्रिप्ट से कोई प्रतिक्रिया नहीं"
+  },
+  "errorInvalidResponse": {
+    "message": "बैकग्राउंड स्क्रिप्ट से अमान्य प्रतिक्रिया"
+  },
+  "successTrash": {
+    "message": "ट्रैश खाली हो गया!"
+  },
+  "successSpam": {
+    "message": "स्पैम खाली हो गया!"
+  },
+  "successBoth": {
+    "message": "ट्रैश और स्पैम खाली हो गए!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ संदेश हटाए गए)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ त्रुटियों के साथ पूर्ण:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "त्रुटि"
+  },
+  "toolbarTrashLabel": {
+    "message": "ट्रैश खाली करें"
+  },
+  "toolbarSpamLabel": {
+    "message": "स्पैम खाली करें"
+  },
+  "toolbarBothLabel": {
+    "message": "ट्रैश और स्पैम खाली करें"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ संदेश हटाए गए।",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ हटाए गए, लेकिन त्रुटियों के साथ:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

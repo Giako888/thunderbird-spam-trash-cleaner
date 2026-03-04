@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Tüm hesaplarınızın Spam ve Çöp Kutusu klasörlerini tek tıkla boşaltın."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Çöp Kutusu:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Çöp Kutusunu Boşalt"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Spam'ı Boşalt"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 İkisini de Boşalt"
+  },
+  "confirmTrash": {
+    "message": "Çöp Kutusundaki tüm iletiler kalıcı olarak silinsin mi?"
+  },
+  "confirmSpam": {
+    "message": "Spam'daki tüm iletiler kalıcı olarak silinsin mi?"
+  },
+  "confirmBoth": {
+    "message": "Çöp Kutusu ve Spam'daki tüm iletiler kalıcı olarak silinsin mi?"
+  },
+  "confirmYes": {
+    "message": "✅ Evet, sil"
+  },
+  "confirmNo": {
+    "message": "❌ İptal"
+  },
+  "loading": {
+    "message": "yükleniyor..."
+  },
+  "messages": {
+    "message": "ileti"
+  },
+  "deleting": {
+    "message": "Siliniyor..."
+  },
+  "errorStatus": {
+    "message": "Durum yükleme hatası: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Hata: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Arka plan komut dosyasından yanıt yok"
+  },
+  "errorInvalidResponse": {
+    "message": "Arka plan komut dosyasından geçersiz yanıt"
+  },
+  "successTrash": {
+    "message": "Çöp Kutusu boşaltıldı!"
+  },
+  "successSpam": {
+    "message": "Spam boşaltıldı!"
+  },
+  "successBoth": {
+    "message": "Çöp Kutusu ve Spam boşaltıldı!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ ileti silindi)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Hatalarla tamamlandı:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Hata"
+  },
+  "toolbarTrashLabel": {
+    "message": "Çöp Kutusunu Boşalt"
+  },
+  "toolbarSpamLabel": {
+    "message": "Spam'ı Boşalt"
+  },
+  "toolbarBothLabel": {
+    "message": "Çöp Kutusu ve Spam'ı Boşalt"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ ileti silindi.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ silindi, ancak hatalarla:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

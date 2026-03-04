@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "ล้างโฟลเดอร์สแปมและถังขยะของทุกบัญชีด้วยคลิกเดียว"
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ ถังขยะ:"
+  },
+  "labelSpam": {
+    "message": "⚠️ สแปม:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ ล้างถังขยะ"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ ล้างสแปม"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 ล้างทั้งสอง"
+  },
+  "confirmTrash": {
+    "message": "ลบข้อความทั้งหมดในถังขยะอย่างถาวร?"
+  },
+  "confirmSpam": {
+    "message": "ลบข้อความทั้งหมดในสแปมอย่างถาวร?"
+  },
+  "confirmBoth": {
+    "message": "ลบข้อความทั้งหมดในถังขยะและสแปมอย่างถาวร?"
+  },
+  "confirmYes": {
+    "message": "✅ ใช่ ลบเลย"
+  },
+  "confirmNo": {
+    "message": "❌ ยกเลิก"
+  },
+  "loading": {
+    "message": "กำลังโหลด..."
+  },
+  "messages": {
+    "message": "ข้อความ"
+  },
+  "deleting": {
+    "message": "กำลังลบ..."
+  },
+  "errorStatus": {
+    "message": "เกิดข้อผิดพลาดในการโหลดสถานะ: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "ข้อผิดพลาด: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "ไม่มีการตอบกลับจากสคริปต์พื้นหลัง"
+  },
+  "errorInvalidResponse": {
+    "message": "การตอบกลับไม่ถูกต้องจากสคริปต์พื้นหลัง"
+  },
+  "successTrash": {
+    "message": "ล้างถังขยะแล้ว!"
+  },
+  "successSpam": {
+    "message": "ล้างสแปมแล้ว!"
+  },
+  "successBoth": {
+    "message": "ล้างถังขยะและสแปมแล้ว!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ (ลบ $COUNT$ ข้อความ)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ เสร็จสิ้นพร้อมข้อผิดพลาด:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "ข้อผิดพลาด"
+  },
+  "toolbarTrashLabel": {
+    "message": "ล้างถังขยะ"
+  },
+  "toolbarSpamLabel": {
+    "message": "ล้างสแปม"
+  },
+  "toolbarBothLabel": {
+    "message": "ล้างถังขยะและสแปม"
+  },
+  "notifyMessagesDeleted": {
+    "message": "ลบ $COUNT$ ข้อความแล้ว",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "ลบ $COUNT$ แล้ว แต่มีข้อผิดพลาด:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

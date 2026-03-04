@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "এক ক্লিকে সমস্ত অ্যাকাউন্টের স্প্যাম এবং ট্র্যাশ ফোল্ডার খালি করুন।"
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ ট্র্যাশ:"
+  },
+  "labelSpam": {
+    "message": "⚠️ স্প্যাম:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ ট্র্যাশ খালি করুন"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ স্প্যাম খালি করুন"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 দুটোই খালি করুন"
+  },
+  "confirmTrash": {
+    "message": "ট্র্যাশের সমস্ত বার্তা স্থায়ীভাবে মুছে ফেলবেন?"
+  },
+  "confirmSpam": {
+    "message": "স্প্যামের সমস্ত বার্তা স্থায়ীভাবে মুছে ফেলবেন?"
+  },
+  "confirmBoth": {
+    "message": "ট্র্যাশ এবং স্প্যামের সমস্ত বার্তা স্থায়ীভাবে মুছে ফেলবেন?"
+  },
+  "confirmYes": {
+    "message": "✅ হ্যাঁ, মুছুন"
+  },
+  "confirmNo": {
+    "message": "❌ বাতিল"
+  },
+  "loading": {
+    "message": "লোড হচ্ছে..."
+  },
+  "messages": {
+    "message": "বার্তা"
+  },
+  "deleting": {
+    "message": "মুছে ফেলা হচ্ছে..."
+  },
+  "errorStatus": {
+    "message": "স্থিতি লোড করতে ত্রুটি: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "ত্রুটি: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "ব্যাকগ্রাউন্ড স্ক্রিপ্ট থেকে কোনো প্রতিক্রিয়া নেই"
+  },
+  "errorInvalidResponse": {
+    "message": "ব্যাকগ্রাউন্ড স্ক্রিপ্ট থেকে অবৈধ প্রতিক্রিয়া"
+  },
+  "successTrash": {
+    "message": "ট্র্যাশ খালি হয়ে গেছে!"
+  },
+  "successSpam": {
+    "message": "স্প্যাম খালি হয়ে গেছে!"
+  },
+  "successBoth": {
+    "message": "ট্র্যাশ ও স্প্যাম খালি হয়ে গেছে!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ বার্তা মোছা হয়েছে)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ ত্রুটিসহ সম্পন্ন:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "ত্রুটি"
+  },
+  "toolbarTrashLabel": {
+    "message": "ট্র্যাশ খালি করুন"
+  },
+  "toolbarSpamLabel": {
+    "message": "স্প্যাম খালি করুন"
+  },
+  "toolbarBothLabel": {
+    "message": "ট্র্যাশ ও স্প্যাম খালি করুন"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ বার্তা মোছা হয়েছে।",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ মোছা হয়েছে, তবে ত্রুটিসহ:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

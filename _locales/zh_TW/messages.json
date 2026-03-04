@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "清空所有帳戶的垃圾郵件和回收桶資料夾，一鍵操作。"
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ 回收桶："
+  },
+  "labelSpam": {
+    "message": "⚠️ 垃圾郵件："
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ 清空回收桶"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ 清空垃圾郵件"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 全部清空"
+  },
+  "confirmTrash": {
+    "message": "確定永久刪除回收桶中的所有郵件？"
+  },
+  "confirmSpam": {
+    "message": "確定永久刪除垃圾郵件中的所有郵件？"
+  },
+  "confirmBoth": {
+    "message": "確定永久刪除回收桶和垃圾郵件中的所有郵件？"
+  },
+  "confirmYes": {
+    "message": "✅ 確認刪除"
+  },
+  "confirmNo": {
+    "message": "❌ 取消"
+  },
+  "loading": {
+    "message": "載入中..."
+  },
+  "messages": {
+    "message": "封郵件"
+  },
+  "deleting": {
+    "message": "正在刪除..."
+  },
+  "errorStatus": {
+    "message": "載入狀態出錯：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "錯誤：$ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "後台腳本無回應"
+  },
+  "errorInvalidResponse": {
+    "message": "後台腳本返回無效回應"
+  },
+  "successTrash": {
+    "message": "回收桶已清空！"
+  },
+  "successSpam": {
+    "message": "垃圾郵件已清空！"
+  },
+  "successBoth": {
+    "message": "回收桶和垃圾郵件已清空！"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$（已刪除 $COUNT$ 封郵件）",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ 完成但有錯誤：\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "錯誤"
+  },
+  "toolbarTrashLabel": {
+    "message": "清空回收桶"
+  },
+  "toolbarSpamLabel": {
+    "message": "清空垃圾郵件"
+  },
+  "toolbarBothLabel": {
+    "message": "清空回收桶和垃圾郵件"
+  },
+  "notifyMessagesDeleted": {
+    "message": "已刪除 $COUNT$ 封郵件。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "已刪除 $COUNT$ 封，但有錯誤：\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

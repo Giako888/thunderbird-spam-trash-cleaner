@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Svuota rapidamente le cartelle Spam e Cestino di tutti gli account con un clic."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Cestino:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Svuota Cestino"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Svuota Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Svuota Entrambi"
+  },
+  "confirmTrash": {
+    "message": "Vuoi svuotare il Cestino? I messaggi saranno eliminati definitivamente."
+  },
+  "confirmSpam": {
+    "message": "Vuoi svuotare la cartella Spam? I messaggi saranno eliminati definitivamente."
+  },
+  "confirmBoth": {
+    "message": "Vuoi svuotare sia il Cestino che lo Spam? I messaggi saranno eliminati definitivamente."
+  },
+  "confirmYes": {
+    "message": "✅ Sì, elimina"
+  },
+  "confirmNo": {
+    "message": "❌ Annulla"
+  },
+  "loading": {
+    "message": "caricamento..."
+  },
+  "messages": {
+    "message": "messaggi"
+  },
+  "deleting": {
+    "message": "Eliminazione in corso..."
+  },
+  "errorStatus": {
+    "message": "Errore nel recupero dello stato: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Errore: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Nessuna risposta dal background script"
+  },
+  "errorInvalidResponse": {
+    "message": "Risposta non valida dal background script"
+  },
+  "successTrash": {
+    "message": "Cestino svuotato!"
+  },
+  "successSpam": {
+    "message": "Spam svuotato!"
+  },
+  "successBoth": {
+    "message": "Cestino e Spam svuotati!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ messaggi eliminati)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Completato con errori:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Errore"
+  },
+  "toolbarTrashLabel": {
+    "message": "Svuota Cestino"
+  },
+  "toolbarSpamLabel": {
+    "message": "Svuota Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Svuota Cestino e Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ messaggi eliminati.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ eliminati, ma con errori:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

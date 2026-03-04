@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "모든 계정의 스팸 및 휴지통 폴더를 한 번의 클릭으로 비웁니다."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ 휴지통:"
+  },
+  "labelSpam": {
+    "message": "⚠️ 스팸:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ 휴지통 비우기"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ 스팸 비우기"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 모두 비우기"
+  },
+  "confirmTrash": {
+    "message": "휴지통의 모든 메시지를 영구적으로 삭제하시겠습니까?"
+  },
+  "confirmSpam": {
+    "message": "스팸의 모든 메시지를 영구적으로 삭제하시겠습니까?"
+  },
+  "confirmBoth": {
+    "message": "휴지통과 스팸의 모든 메시지를 영구적으로 삭제하시겠습니까?"
+  },
+  "confirmYes": {
+    "message": "✅ 예, 삭제"
+  },
+  "confirmNo": {
+    "message": "❌ 취소"
+  },
+  "loading": {
+    "message": "로딩 중..."
+  },
+  "messages": {
+    "message": "메시지"
+  },
+  "deleting": {
+    "message": "삭제 중..."
+  },
+  "errorStatus": {
+    "message": "상태 로드 오류: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "오류: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "백그라운드 스크립트에서 응답 없음"
+  },
+  "errorInvalidResponse": {
+    "message": "백그라운드 스크립트에서 잘못된 응답"
+  },
+  "successTrash": {
+    "message": "휴지통이 비워졌습니다!"
+  },
+  "successSpam": {
+    "message": "스팸이 비워졌습니다!"
+  },
+  "successBoth": {
+    "message": "휴지통과 스팸이 비워졌습니다!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$개 메시지 삭제됨)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ 오류와 함께 완료:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "오류"
+  },
+  "toolbarTrashLabel": {
+    "message": "휴지통 비우기"
+  },
+  "toolbarSpamLabel": {
+    "message": "스팸 비우기"
+  },
+  "toolbarBothLabel": {
+    "message": "휴지통 및 스팸 비우기"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$개 메시지가 삭제되었습니다.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$개 삭제됨, 하지만 오류 발생:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

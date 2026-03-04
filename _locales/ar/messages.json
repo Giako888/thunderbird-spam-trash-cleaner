@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "أفرغ مجلدات البريد العشوائي وسلة المحذوفات لجميع حساباتك بنقرة واحدة."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ سلة المحذوفات:"
+  },
+  "labelSpam": {
+    "message": "⚠️ البريد العشوائي:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ إفراغ سلة المحذوفات"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ إفراغ البريد العشوائي"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 إفراغ الكل"
+  },
+  "confirmTrash": {
+    "message": "هل تريد حذف جميع رسائل سلة المحذوفات نهائيًا؟"
+  },
+  "confirmSpam": {
+    "message": "هل تريد حذف جميع رسائل البريد العشوائي نهائيًا؟"
+  },
+  "confirmBoth": {
+    "message": "هل تريد حذف جميع رسائل سلة المحذوفات والبريد العشوائي نهائيًا؟"
+  },
+  "confirmYes": {
+    "message": "✅ نعم، احذف"
+  },
+  "confirmNo": {
+    "message": "❌ إلغاء"
+  },
+  "loading": {
+    "message": "جار التحميل..."
+  },
+  "messages": {
+    "message": "رسائل"
+  },
+  "deleting": {
+    "message": "جار الحذف..."
+  },
+  "errorStatus": {
+    "message": "خطأ في تحميل الحالة: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "خطأ: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "لا استجابة من البرنامج النصي في الخلفية"
+  },
+  "errorInvalidResponse": {
+    "message": "استجابة غير صالحة من البرنامج النصي في الخلفية"
+  },
+  "successTrash": {
+    "message": "تم إفراغ سلة المحذوفات!"
+  },
+  "successSpam": {
+    "message": "تم إفراغ البريد العشوائي!"
+  },
+  "successBoth": {
+    "message": "تم إفراغ سلة المحذوفات والبريد العشوائي!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ (تم حذف $COUNT$ رسائل)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ اكتمل مع أخطاء:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "خطأ"
+  },
+  "toolbarTrashLabel": {
+    "message": "إفراغ سلة المحذوفات"
+  },
+  "toolbarSpamLabel": {
+    "message": "إفراغ البريد العشوائي"
+  },
+  "toolbarBothLabel": {
+    "message": "إفراغ سلة المحذوفات والبريد العشوائي"
+  },
+  "notifyMessagesDeleted": {
+    "message": "تم حذف $COUNT$ رسائل.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "تم حذف $COUNT$، ولكن مع أخطاء:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

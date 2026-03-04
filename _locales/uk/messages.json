@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Швидко очистіть папки Спам та Кошик усіх облікових записів одним кліком."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Кошик:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Спам:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Очистити Кошик"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Очистити Спам"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Очистити обидва"
+  },
+  "confirmTrash": {
+    "message": "Назавжди видалити всі повідомлення з Кошика?"
+  },
+  "confirmSpam": {
+    "message": "Назавжди видалити всі повідомлення зі Спаму?"
+  },
+  "confirmBoth": {
+    "message": "Назавжди видалити всі повідомлення з Кошика та Спаму?"
+  },
+  "confirmYes": {
+    "message": "✅ Так, видалити"
+  },
+  "confirmNo": {
+    "message": "❌ Скасувати"
+  },
+  "loading": {
+    "message": "завантаження..."
+  },
+  "messages": {
+    "message": "повідомлень"
+  },
+  "deleting": {
+    "message": "Видалення..."
+  },
+  "errorStatus": {
+    "message": "Помилка завантаження статусу: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Помилка: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Немає відповіді від фонового скрипта"
+  },
+  "errorInvalidResponse": {
+    "message": "Недійсна відповідь від фонового скрипта"
+  },
+  "successTrash": {
+    "message": "Кошик очищено!"
+  },
+  "successSpam": {
+    "message": "Спам очищено!"
+  },
+  "successBoth": {
+    "message": "Кошик та Спам очищено!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ повідомлень видалено)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Завершено з помилками:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Помилка"
+  },
+  "toolbarTrashLabel": {
+    "message": "Очистити Кошик"
+  },
+  "toolbarSpamLabel": {
+    "message": "Очистити Спам"
+  },
+  "toolbarBothLabel": {
+    "message": "Очистити Кошик та Спам"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ повідомлень видалено.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ видалено, але з помилками:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

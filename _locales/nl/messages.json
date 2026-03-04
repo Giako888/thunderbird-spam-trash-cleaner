@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Maak de Spam- en Prullenbak-mappen van al uw accounts leeg met één klik."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Prullenbak:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Prullenbak legen"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Spam legen"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Beide legen"
+  },
+  "confirmTrash": {
+    "message": "Alle berichten in de Prullenbak permanent verwijderen?"
+  },
+  "confirmSpam": {
+    "message": "Alle berichten in Spam permanent verwijderen?"
+  },
+  "confirmBoth": {
+    "message": "Alle berichten in Prullenbak en Spam permanent verwijderen?"
+  },
+  "confirmYes": {
+    "message": "✅ Ja, verwijderen"
+  },
+  "confirmNo": {
+    "message": "❌ Annuleren"
+  },
+  "loading": {
+    "message": "laden..."
+  },
+  "messages": {
+    "message": "berichten"
+  },
+  "deleting": {
+    "message": "Verwijderen..."
+  },
+  "errorStatus": {
+    "message": "Fout bij laden van status: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Fout: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Geen reactie van achtergrondscript"
+  },
+  "errorInvalidResponse": {
+    "message": "Ongeldige reactie van achtergrondscript"
+  },
+  "successTrash": {
+    "message": "Prullenbak geleegd!"
+  },
+  "successSpam": {
+    "message": "Spam geleegd!"
+  },
+  "successBoth": {
+    "message": "Prullenbak en Spam geleegd!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ berichten verwijderd)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Voltooid met fouten:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Fout"
+  },
+  "toolbarTrashLabel": {
+    "message": "Prullenbak legen"
+  },
+  "toolbarSpamLabel": {
+    "message": "Spam legen"
+  },
+  "toolbarBothLabel": {
+    "message": "Prullenbak en Spam legen"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ berichten verwijderd.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ verwijderd, maar met fouten:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

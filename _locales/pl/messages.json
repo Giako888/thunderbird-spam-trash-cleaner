@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Szybko opróżnij foldery Spam i Kosz wszystkich kont jednym kliknięciem."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Kosz:"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam:"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Opróżnij Kosz"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Opróżnij Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Opróżnij oba"
+  },
+  "confirmTrash": {
+    "message": "Trwale usunąć wszystkie wiadomości z Kosza?"
+  },
+  "confirmSpam": {
+    "message": "Trwale usunąć wszystkie wiadomości ze Spamu?"
+  },
+  "confirmBoth": {
+    "message": "Trwale usunąć wszystkie wiadomości z Kosza i Spamu?"
+  },
+  "confirmYes": {
+    "message": "✅ Tak, usuń"
+  },
+  "confirmNo": {
+    "message": "❌ Anuluj"
+  },
+  "loading": {
+    "message": "ładowanie..."
+  },
+  "messages": {
+    "message": "wiadomości"
+  },
+  "deleting": {
+    "message": "Usuwanie..."
+  },
+  "errorStatus": {
+    "message": "Błąd ładowania statusu: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Błąd: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Brak odpowiedzi ze skryptu w tle"
+  },
+  "errorInvalidResponse": {
+    "message": "Nieprawidłowa odpowiedź ze skryptu w tle"
+  },
+  "successTrash": {
+    "message": "Kosz opróżniony!"
+  },
+  "successSpam": {
+    "message": "Spam opróżniony!"
+  },
+  "successBoth": {
+    "message": "Kosz i Spam opróżnione!"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ wiadomości usunięto)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Ukończono z błędami:\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Błąd"
+  },
+  "toolbarTrashLabel": {
+    "message": "Opróżnij Kosz"
+  },
+  "toolbarSpamLabel": {
+    "message": "Opróżnij Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Opróżnij Kosz i Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "Usunięto $COUNT$ wiadomości.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "Usunięto $COUNT$, ale z błędami:\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}

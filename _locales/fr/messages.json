@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Spam & Trash Cleaner"
+  },
+  "extensionDescription": {
+    "message": "Videz rapidement les dossiers Spam et Corbeille de tous vos comptes en un clic."
+  },
+  "popupTitle": {
+    "message": "🧹 Spam & Trash Cleaner"
+  },
+  "labelTrash": {
+    "message": "🗑️ Corbeille :"
+  },
+  "labelSpam": {
+    "message": "⚠️ Spam :"
+  },
+  "btnEmptyTrash": {
+    "message": "🗑️ Vider la Corbeille"
+  },
+  "btnEmptySpam": {
+    "message": "⚠️ Vider le Spam"
+  },
+  "btnEmptyBoth": {
+    "message": "💥 Vider les deux"
+  },
+  "confirmTrash": {
+    "message": "Supprimer définitivement tous les messages de la Corbeille ?"
+  },
+  "confirmSpam": {
+    "message": "Supprimer définitivement tous les messages du Spam ?"
+  },
+  "confirmBoth": {
+    "message": "Supprimer définitivement tous les messages de la Corbeille et du Spam ?"
+  },
+  "confirmYes": {
+    "message": "✅ Oui, supprimer"
+  },
+  "confirmNo": {
+    "message": "❌ Annuler"
+  },
+  "loading": {
+    "message": "chargement..."
+  },
+  "messages": {
+    "message": "messages"
+  },
+  "deleting": {
+    "message": "Suppression en cours..."
+  },
+  "errorStatus": {
+    "message": "Erreur de chargement : $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorGeneric": {
+    "message": "Erreur : $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "errorNoResponse": {
+    "message": "Aucune réponse du script d'arrière-plan"
+  },
+  "errorInvalidResponse": {
+    "message": "Réponse invalide du script d'arrière-plan"
+  },
+  "successTrash": {
+    "message": "Corbeille vidée !"
+  },
+  "successSpam": {
+    "message": "Spam vidé !"
+  },
+  "successBoth": {
+    "message": "Corbeille et Spam vidés !"
+  },
+  "successDetail": {
+    "message": "✅ $MSG$ ($COUNT$ messages supprimés)",
+    "placeholders": {
+      "msg": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "warningWithErrors": {
+    "message": "⚠️ Terminé avec des erreurs :\n$ERRORS$",
+    "placeholders": { "errors": { "content": "$1" } }
+  },
+  "errorLabel": {
+    "message": "Erreur"
+  },
+  "toolbarTrashLabel": {
+    "message": "Vider la Corbeille"
+  },
+  "toolbarSpamLabel": {
+    "message": "Vider le Spam"
+  },
+  "toolbarBothLabel": {
+    "message": "Vider Corbeille et Spam"
+  },
+  "notifyMessagesDeleted": {
+    "message": "$COUNT$ messages supprimés.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "notifyDeletedWithErrors": {
+    "message": "$COUNT$ supprimés, mais avec des erreurs :\n$ERRORS$",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "errors": { "content": "$2" }
+    }
+  }
+}
