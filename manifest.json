@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "__MSG_extensionDescription__",
   "default_locale": "en",
   "author": "Giako",
@@ -57,5 +57,15 @@
     "32": "icons/icon-32.svg",
     "48": "icons/icon-48.svg",
     "128": "icons/icon-128.svg"
+  },
+  "experiment_apis": {
+    "toolbarButtons": {
+      "schema": "experiment-apis/toolbarButtons/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["toolbarButtons"]],
+        "script": "experiment-apis/toolbarButtons/implementation.js"
+      }
+    }
   }
 }

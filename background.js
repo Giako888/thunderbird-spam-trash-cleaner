@@ -298,6 +298,29 @@ async function runAction(actionType, labelKey) {
 }
 
 // ======================================================================
+// Experiment toolbar buttons (3 separate one-click icons)
+// ======================================================================
+
+try {
+  if (typeof browser !== "undefined" && browser.toolbarButtons) {
+    browser.toolbarButtons.onEmptyTrashClicked.addListener(async () => {
+      await runAction("trash", "toolbarTrashLabel");
+    });
+    browser.toolbarButtons.onEmptyJunkClicked.addListener(async () => {
+      await runAction("junk", "toolbarSpamLabel");
+    });
+    browser.toolbarButtons.onEmptyBothClicked.addListener(async () => {
+      await runAction("both", "toolbarBothLabel");
+    });
+    console.log("Spam & Trash Cleaner: experiment toolbar listeners registered");
+  } else {
+    console.log("Spam & Trash Cleaner: experiment toolbar API unavailable");
+  }
+} catch (e) {
+  console.warn("Spam & Trash Cleaner: experiment toolbar listener error:", e.message);
+}
+
+// ======================================================================
 // Context menu items (right-click in folder tree + Tools menu)
 // ======================================================================
 

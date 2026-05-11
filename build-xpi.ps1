@@ -26,6 +26,8 @@ $filesToInclude = @(
     "icons/btn-trash.svg",
     "icons/btn-spam.svg",
     "icons/btn-both.svg",
+    "experiment-apis/toolbarButtons/schema.json",
+    "experiment-apis/toolbarButtons/implementation.js",
     "_locales/en/messages.json",
     "_locales/it/messages.json",
     "_locales/zh_CN/messages.json",

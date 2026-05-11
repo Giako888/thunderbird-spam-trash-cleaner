@@ -1,0 +1,22 @@
+[
+  {
+    "namespace": "toolbarButtons",
+    "events": [
+      {
+        "name": "onEmptyTrashClicked",
+        "type": "function",
+        "parameters": []
+      },
+      {
+        "name": "onEmptyJunkClicked",
+        "type": "function",
+        "parameters": []
+      },
+      {
+        "name": "onEmptyBothClicked",
+        "type": "function",
+        "parameters": []
+      }
+    ]
+  }
+]
