@@ -10,7 +10,7 @@
     "gecko": {
       "id": "spam-trash-cleaner@giako",
       "strict_min_version": "115.0",
-      "strict_max_version": "150.*"
+      "strict_max_version": "152.*"
     }
   },
   "permissions": [
