@@ -16,9 +16,6 @@ if (Test-Path $xpiPath) { Remove-Item $xpiPath -Force }
 $filesToInclude = @(
     "manifest.json",
     "background.js",
-    "popup/popup.html",
-    "popup/popup.css",
-    "popup/popup.js",
     "icons/icon-16.svg",
     "icons/icon-32.svg",
     "icons/icon-48.svg",

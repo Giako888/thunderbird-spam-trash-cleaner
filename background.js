@@ -12,49 +12,6 @@ function _(key, ...subs) {
 }
 
 // ======================================================================
-// Message Listener — handles popup requests
-// ======================================================================
-api.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  handleMessage(message)
-    .then(sendResponse)
-    .catch((err) => {
-      console.error("Spam & Trash Cleaner: handler error:", err);
-      sendResponse({ success: false, errors: [err.message] });
-    });
-  return true; // keep channel open for async response
-});
-
-async function handleMessage(message) {
-  console.log("Spam & Trash Cleaner: received action:", message.action);
-
-  switch (message.action) {
-    case "getStatus":
-      return await getFolderStatus();
-
-    case "emptyTrash":
-      return await emptyFoldersByType("trash");
-
-    case "emptyJunk":
-      return await emptyFoldersByType("junk");
-
-    case "emptyBoth": {
-      const trashResult = await emptyFoldersByType("trash");
-      const junkResult = await emptyFoldersByType("junk");
-      return {
-        success: trashResult.success && junkResult.success,
-        trashDeleted: trashResult.deleted,
-        junkDeleted: junkResult.deleted,
-        deleted: trashResult.deleted + junkResult.deleted,
-        errors: [...(trashResult.errors || []), ...(junkResult.errors || [])],
-      };
-    }
-
-    default:
-      return { success: false, errors: ["Unknown action: " + message.action] };
-  }
-}
-
-// ======================================================================
 // Folder discovery
 // ======================================================================
 
@@ -112,62 +69,6 @@ function flattenFolders(folders) {
     }
   }
   return result;
-}
-
-// ======================================================================
-// Message counting
-// ======================================================================
-
-async function getFolderStatus() {
-  let trashCount = 0;
-  let junkCount = 0;
-
-  const trashFolders = await findFoldersByType("trash");
-  const junkFolders = await findFoldersByType("junk");
-
-  for (const { folder } of trashFolders) {
-    trashCount += await countMessages(folder);
-  }
-  for (const { folder } of junkFolders) {
-    junkCount += await countMessages(folder);
-  }
-
-  console.log(`Spam & Trash Cleaner: status → trash=${trashCount}, junk=${junkCount}`);
-  return { trashCount, junkCount };
-}
-
-async function countMessages(folder) {
-  // Fast path: folders.getFolderInfo (TB 91+)
-  try {
-    if (api.folders && typeof api.folders.getFolderInfo === "function") {
-      const folderId = folder.id || folder;
-      const info = await api.folders.getFolderInfo(folderId);
-      if (typeof info.totalMessageCount === "number") {
-        return info.totalMessageCount;
-      }
-    }
-  } catch (_) {
-    // fall through
-  }
-
-  // Slow path: list and count
-  let count = 0;
-  try {
-    let page;
-    try {
-      page = await api.messages.list(folder.id);
-    } catch (_) {
-      page = await api.messages.list(folder);
-    }
-    count += page.messages.length;
-    while (page.id) {
-      page = await api.messages.continueList(page.id);
-      count += page.messages.length;
-    }
-  } catch (e) {
-    console.warn(`Spam & Trash Cleaner: count error for "${folder.name}":`, e);
-  }
-  return count;
 }
 
 // ======================================================================
