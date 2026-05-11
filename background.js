@@ -1,6 +1,6 @@
 // background.js — Spam & Trash Cleaner v4 for Thunderbird 115+
-// Pure WebExtension — no Experiment API required.
 // Uses messenger.* APIs (Thunderbird native namespace) with browser.* fallback.
+// Toolbar buttons are provided via a Mail Experiment API (see experiment-apis/).
 
 "use strict";
 
@@ -290,4 +290,4 @@ try {
   console.warn("Spam & Trash Cleaner: shortcuts error:", e.message);
 }
 
-console.log("Spam & Trash Cleaner: background script loaded (v4.0.0)");
+console.log("Spam & Trash Cleaner: background script loaded");
