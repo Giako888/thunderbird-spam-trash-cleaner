@@ -1,10 +1,22 @@
 # 🧹 Spam & Trash Cleaner
 
-A Thunderbird extension that lets you empty the Spam and Trash folders across all your mail accounts with a single click.
-
 ![Thunderbird 115+](https://img.shields.io/badge/Thunderbird-115%2B-blue?logo=thunderbird&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-4.0.0-purple)
+![Version](https://img.shields.io/badge/version-4.0.6-purple)
+
+---
+
+### 🇬🇧 English
+
+Instantly empty Spam and Trash across all your accounts — popup, keyboard shortcuts, or 3 toolbar buttons. ⚠️ To show the toolbar buttons, disable "Automatically hide the tab bar" in Thunderbird (View → Layout).
+
+---
+
+### 🇮🇹 Italiano
+
+Svuota istantaneamente Spam e Cestino di tutti gli account — popup, scorciatoie da tastiera o 3 pulsanti nella barra. ⚠️ Per visualizzare i pulsanti, disattiva "Nascondi automaticamente la barra delle schede" in Thunderbird (Visualizza → Layout).
+
+---
 
 ## Features
 
