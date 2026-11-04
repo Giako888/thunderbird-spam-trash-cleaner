@@ -10,7 +10,7 @@
     "gecko": {
       "id": "spam-trash-cleaner@giako",
       "strict_min_version": "115.0",
-      "strict_max_version": "152.*"
+      "strict_max_version": "159.*"
     }
   },
   "permissions": [
@@ -43,6 +43,16 @@
       },
       "description": "__MSG_toolbarBothLabel__"
     }
+  },
+  "browser_action": {
+    "default_title": "__MSG_extensionName__",
+    "default_icon": {
+      "16": "icons/icon-16.svg",
+      "32": "icons/icon-32.svg",
+      "48": "icons/icon-48.svg"
+    },
+    "default_popup": "popup/popup.html",
+    "default_area": "maintoolbar"
   },
   "icons": {
     "16": "icons/icon-16.svg",

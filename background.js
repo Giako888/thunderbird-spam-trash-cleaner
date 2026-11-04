@@ -291,3 +291,75 @@ try {
 }
 
 console.log("Spam & Trash Cleaner: background script loaded");
+
+// ======================================================================
+// Popup messaging (browser_action popup communicates via runtime.onMessage)
+// ======================================================================
+
+api.runtime.onMessage.addListener(async (message) => {
+  if (!message || !message.action) return;
+
+  switch (message.action) {
+    case "getStatus": {
+      try {
+        const [trashEntries, junkEntries] = await Promise.all([
+          findFoldersByType("trash"),
+          findFoldersByType("junk"),
+        ]);
+
+        let trashCount = 0;
+        for (const { folder } of trashEntries) {
+          try {
+            let page = await api.messages.list(folder.id).catch(() => api.messages.list(folder));
+            trashCount += page.messages.length;
+            while (page.id) {
+              page = await api.messages.continueList(page.id);
+              trashCount += page.messages.length;
+            }
+          } catch (_) {}
+        }
+
+        let junkCount = 0;
+        for (const { folder } of junkEntries) {
+          try {
+            let page = await api.messages.list(folder.id).catch(() => api.messages.list(folder));
+            junkCount += page.messages.length;
+            while (page.id) {
+              page = await api.messages.continueList(page.id);
+              junkCount += page.messages.length;
+            }
+          } catch (_) {}
+        }
+
+        return { trashCount, junkCount };
+      } catch (e) {
+        console.error("Spam & Trash Cleaner: getStatus error:", e);
+        return { trashCount: 0, junkCount: 0, error: e.message };
+      }
+    }
+
+    case "emptyTrash": {
+      const result = await emptyFoldersByType("trash");
+      return { success: result.success, deleted: result.deleted, errors: result.errors };
+    }
+
+    case "emptyJunk": {
+      const result = await emptyFoldersByType("junk");
+      return { success: result.success, deleted: result.deleted, errors: result.errors };
+    }
+
+    case "emptyBoth": {
+      const [t, j] = await Promise.all([
+        emptyFoldersByType("trash"),
+        emptyFoldersByType("junk"),
+      ]);
+      const allErrors = [...(t.errors || []), ...(j.errors || [])];
+      return {
+        success: allErrors.length === 0,
+        trashDeleted: t.deleted,
+        junkDeleted: j.deleted,
+        errors: allErrors,
+      };
+    }
+  }
+});
