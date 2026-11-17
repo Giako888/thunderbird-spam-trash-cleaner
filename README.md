@@ -1,8 +1,8 @@
 # 🧹 Spam & Trash Cleaner
 
-![Thunderbird 115+](https://img.shields.io/badge/Thunderbird-115%2B-blue?logo=thunderbird&logoColor=white)
+![Thunderbird 115+](https://img.shields.io/badge/Thunderbird-115--170-blue?logo=thunderbird&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-4.0.6-purple)
+![Version](https://img.shields.io/badge/version-4.0.7-purple)
 
 ---
 
@@ -30,7 +30,7 @@ Svuota istantaneamente Spam e Cestino di tutti gli account — popup, scorciatoi
 - **Multi-account support** — Automatically discovers and cleans Trash/Spam folders for all accounts, including nested sub-folders.
 - **Desktop notifications** — Get a summary of how many messages were deleted.
 - **Localized in 23 languages** — Arabic, Bengali, Chinese (Simplified & Traditional), Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Polish, Portuguese (Brazil & Portugal), Russian, Spanish, Swahili, Thai, Turkish, Ukrainian, and Vietnamese.
-- **Pure WebExtension** — No legacy Experiment APIs required. Compatible with Thunderbird 115 and later.
+- **WebExtension + small Experiment API** — Experiment API used only for the 3 toolbar buttons. Compatible with Thunderbird 115 through 170.
 
 ## Installation
 

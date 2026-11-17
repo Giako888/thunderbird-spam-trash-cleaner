@@ -1,4 +1,4 @@
-// background.js — Spam & Trash Cleaner v4 for Thunderbird 115+
+// background.js — Spam & Trash Cleaner v4 for Thunderbird 115–170
 // Uses messenger.* APIs (Thunderbird native namespace) with browser.* fallback.
 // Toolbar buttons are provided via a Mail Experiment API (see experiment-apis/).
 
@@ -23,11 +23,11 @@ async function findFoldersByType(folderType) {
     console.log(`Spam & Trash Cleaner: found ${accounts.length} account(s)`);
 
     for (const account of accounts) {
-      const folders = flattenFolders(account.folders || []);
+      const folders = flattenFolders(getAccountTopFolders(account));
       console.log(`  Account "${account.name}" (${account.type}): ${folders.length} folders`);
 
       for (const folder of folders) {
-        if (folder.type === folderType) {
+        if (folderMatchesType(folder, folderType)) {
           console.log(`    → ${folderType}: "${folder.name}" (id: ${folder.id || folder.path})`);
           results.push({ folder, account });
         }
@@ -41,10 +41,18 @@ async function findFoldersByType(folderType) {
       const accounts = await api.accounts.list(false);
       for (const account of accounts) {
         try {
-          const subFolders = await api.folders.getSubFolders(account, true);
+          let subFolders;
+          try {
+            // TB 121+: folder ID based API
+            const root = account.rootFolder;
+            subFolders = await api.folders.getSubFolders(root ? root.id : account, true);
+          } catch (_) {
+            // TB 115: MailAccount object accepted
+            subFolders = await api.folders.getSubFolders(account, true);
+          }
           const folders = flattenFolders(subFolders || []);
           for (const folder of folders) {
-            if (folder.type === folderType) {
+            if (folderMatchesType(folder, folderType)) {
               results.push({ folder, account });
             }
           }
@@ -60,6 +68,22 @@ async function findFoldersByType(folderType) {
   return results;
 }
 
+// TB 121+ exposes account.rootFolder; account.folders is deprecated.
+function getAccountTopFolders(account) {
+  if (account.rootFolder && Array.isArray(account.rootFolder.subFolders)) {
+    return account.rootFolder.subFolders;
+  }
+  return account.folders || [];
+}
+
+// TB 121+ uses folder.specialUse (array); folder.type is deprecated.
+function folderMatchesType(folder, folderType) {
+  if (Array.isArray(folder.specialUse) && folder.specialUse.includes(folderType)) {
+    return true;
+  }
+  return folder.type === folderType;
+}
+
 function flattenFolders(folders) {
   const result = [];
   for (const folder of folders) {
@@ -69,6 +93,34 @@ function flattenFolders(folders) {
     }
   }
   return result;
+}
+
+// ======================================================================
+// Permanent delete (signature differs across Thunderbird versions)
+// ======================================================================
+
+// "bool": messages.delete(ids, true)  — TB 115–1xx
+// "options": messages.delete(ids, { deletePermanently: true }) — newer TB
+let deleteSignature = null;
+
+async function deleteMessagesPermanently(ids) {
+  if (deleteSignature === "options") {
+    return api.messages.delete(ids, { deletePermanently: true });
+  }
+  if (deleteSignature === "bool") {
+    return api.messages.delete(ids, true);
+  }
+  try {
+    await api.messages.delete(ids, true);
+    deleteSignature = "bool";
+  } catch (e) {
+    // Schema validation errors mean the boolean form is not accepted.
+    if (!/argument|type|expected|schema/i.test(e.message || "")) {
+      throw e;
+    }
+    await api.messages.delete(ids, { deletePermanently: true });
+    deleteSignature = "options";
+  }
 }
 
 // ======================================================================
@@ -127,12 +179,12 @@ async function emptyFolder(folder) {
     for (let i = 0; i < messageIds.length; i += batchSize) {
       const batch = messageIds.slice(i, i + batchSize);
       try {
-        await api.messages.delete(batch, true);
+        await deleteMessagesPermanently(batch);
       } catch (batchErr) {
         console.warn("Spam & Trash Cleaner: batch error, trying one-by-one:", batchErr.message);
         for (const id of batch) {
           try {
-            await api.messages.delete([id], true);
+            await deleteMessagesPermanently([id]);
           } catch (singleErr) {
             console.warn(`Spam & Trash Cleaner: could not delete ${id}:`, singleErr.message);
             batchFailed = true;
